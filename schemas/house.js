@@ -13,6 +13,7 @@ export default {
       name: 'adres',
       title: 'Adres',
       type: 'string',
+      validation: (Rule) => [Rule.required().error('Field cannot be empty')],
     },
     {
       name: 'slug',
@@ -22,6 +23,7 @@ export default {
         source: 'title',
         maxLength: 96,
       },
+      validation: (Rule) => [Rule.required().error('Field cannot be empty')],
     },
     {
       name: 'status',
@@ -97,6 +99,12 @@ export default {
       options: {
         hotspot: true,
       },
+    },
+    {
+      name: 'images',
+      title: 'Images',
+      type: 'array',
+      of: [{ type: 'image' }]
     },
     {
       name: 'categories',
