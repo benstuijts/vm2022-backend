@@ -10,6 +10,8 @@ import category from './category'
 import blog from './blog'
 import author from './house'
 import house from './author'
+import makelaarPage from './makelaarPage'
+import message from './message';
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -22,6 +24,8 @@ export default createSchema({
     // in the studio.
     house,
     blog,
+    message,
+    makelaarPage,
     author,
     category,
     // When added to this list, object types can be used as
