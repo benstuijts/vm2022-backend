@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "vm2020-backend"
+    "name": "vm-backend"
   },
   "api": {
-    "projectId": "nrievubt",
+    "projectId": "4g1muh35",
     "dataset": "production"
   },
   "plugins": [

@@ -16,12 +16,12 @@ export default {
     {
       name: 'startDate',
       title: 'Show message from',
-      type: 'date',
+      type: 'datetime',
     },
     {
       name: 'endDate',
       title: 'Show message till',
-      type: 'date',
+      type: 'datetime',
     },
     {
       name: 'author',

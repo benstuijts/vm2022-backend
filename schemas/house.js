@@ -1,3 +1,6 @@
+import Plattegrond from './Plattegrond';
+
+
 export default {
   name: 'house',
   title: 'House',
